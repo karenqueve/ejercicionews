@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.home {
+display: flex;
+justify-content: left;
+height: 50px;
+width: 50px;
+text-decoration: none;
+color: black;
+font-weight: bold;
+padding: 10px;
+}
+
+.recommended {
+    display: flex;
+    justify-content: right;
+    align-items: flex-end;
+    text-decoration: none;
+}
+
+.R-federer {
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+
+.titleR {
+    display: flex;
+    justify-content: center;
+}
+
+p {
+    display: flex;
+    justify-content: center;
+}
+
+.text1 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    text-align: justify;
+    margin-left: 30px;
+    padding: 60px;
+}
+
+.img1, .img2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 350px;
+    margin-left: 30%;
+}
+
+footer {
+display: flex;
+justify-content: space-between;
+width: 100%;
+height: 30px;
+}
+
+.icon-footer {
+    display: flex;
+    justify-content: space-between;
+    height: 10px;
+}
